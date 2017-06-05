@@ -1,0 +1,48 @@
+{
+  "email": [{
+    "rotaquiojoebert@gmail.com": {
+      "userInfo": {
+        "firstName": "Joebert",
+        "lastName": "Rotaquio",
+        "age": "20",
+        "address": "New Jersey",
+        "joined": {
+          "month": "January",
+          "day": "1",
+          "year": "2011"
+        }
+      }
+    }
+  },
+    {
+      "eldoradoraytoro@gmail.com": {
+        "userInfo": {
+          "firstName": "Ray",
+          "lastName": "Toro",
+          "age": "45",
+          "address": "New Orleans",
+          "joined": {
+            "month": "April",
+            "day": "23",
+            "year": "2010"
+          }
+        }
+      }
+    },
+    {
+      "frankndptience@gmail.com": {
+        "userInfo": {
+          "firstName": "Frank",
+          "lastName": "Iero",
+          "age": "43",
+          "address": "Alabama",
+          "joined": {
+            "month": "August",
+            "day": "8",
+            "year": "2013"
+          }
+        }
+      }
+    }
+  ]
+}
