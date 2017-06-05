@@ -1,0 +1,360 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/_header.scss */
+body header {
+  padding-bottom: 4%;
+  padding-top: 3%;
+  padding-left: 0%;
+  background-color: #0a233d;
+}
+/* line 8, ../sass/_header.scss */
+body header .header-fonts {
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 200%;
+  text-align: center;
+  padding-left: 5%;
+  text-decoration: none;
+}
+/* line 17, ../sass/_header.scss */
+body header div {
+  display: inline-block;
+  padding-left: 3%;
+}
+/* line 22, ../sass/_header.scss */
+body header #header-search {
+  position: relative;
+  left: 600%;
+  top: 0px;
+}
+
+/* line 3, ../sass/_section.scss */
+body section #section1 {
+  float: left;
+  width: 55%;
+  height: 650px;
+  padding-left: 8%;
+  background-color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 150%;
+  font-family: sans-serif;
+  color: darkslategray;
+}
+/* line 16, ../sass/_section.scss */
+body section #section1 h1 {
+  color: #0a233d;
+  font-family: sans-serif;
+  font-size: 200%;
+}
+/* line 22, ../sass/_section.scss */
+body section #section1 p {
+  margin: 0;
+  padding-left: 5%;
+}
+/* line 26, ../sass/_section.scss */
+body section #section1 #submit-btn {
+  float: right;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  width: 20%;
+  margin-right: 5%;
+  border-radius: 20px;
+  background-color: #0a233d;
+  color: white;
+  font-size: 125%;
+  outline: none;
+}
+/* line 39, ../sass/_section.scss */
+body section #section1 .input-txt {
+  border-color: #1077f2;
+  height: 5%;
+  width: 30%;
+  border-radius: 20px;
+  outline: none;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+/* line 49, ../sass/_section.scss */
+body section #section1 .section-btn {
+  background-color: white;
+  border-radius: 20px;
+  color: #1077f2;
+  width: 20%;
+  outline: none;
+  font-size: 125%;
+  margin: 1%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 5px;
+  border: 2px solid #1077f2;
+  font-size: 90%;
+}
+/* line 63, ../sass/_section.scss */
+body section #section1 .section-btn .border-btn {
+  border: 2px solid;
+  border-radius: 100%;
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  margin-top: 3px;
+}
+/* line 70, ../sass/_section.scss */
+body section #section1 .section-btn .border-btn .inner-btn {
+  border-radius: 100%;
+  background-color: #1077f2;
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  margin: 12.5%;
+}
+/* line 80, ../sass/_section.scss */
+body section #section1 .section-btn:hover {
+  background-color: #1077f2;
+  color: white;
+}
+/* line 84, ../sass/_section.scss */
+body section #section1 .section-btn:hover .inner-btn {
+  background: white;
+}
+
+/* line 2, ../sass/_article.scss */
+body section {
+  font-family: sans-serif;
+}
+/* line 4, ../sass/_article.scss */
+body section #right-article {
+  float: right;
+  width: 28%;
+  height: 650px;
+  background-color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 21px;
+  border-left: 2px solid gray;
+}
+/* line 14, ../sass/_article.scss */
+body section #right-article #header {
+  font-weight: 500;
+  font-size: 27px;
+  padding-bottom: 5%;
+  color: #0a233d;
+}
+/* line 22, ../sass/_article.scss */
+body section #right-article .text-content {
+  font-size: 19px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: darkslategray;
+}
+/* line 28, ../sass/_article.scss */
+body section #right-article div ul {
+  list-style: none;
+}
+/* line 31, ../sass/_article.scss */
+body section #right-article div.sb-articles img {
+  width: 100%;
+  height: auto;
+}
+/* line 36, ../sass/_article.scss */
+body section #right-article .img-text {
+  position: absolute;
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 140%;
+}
+/* line 44, ../sass/_article.scss */
+body section #right-article .sb-articles {
+  border-top: 8px solid cornflowerblue;
+  position: relative;
+  width: 60%;
+  padding-top: 4%;
+}
+/* line 50, ../sass/_article.scss */
+body section #right-article .sb-articles .img-cont1 {
+  position: relative;
+}
+/* line 53, ../sass/_article.scss */
+body section #right-article .sb-articles .img-cont1 .img-overlay1 {
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+/* line 62, ../sass/_article.scss */
+body section #right-article .img-cont2 {
+  position: relative;
+}
+/* line 65, ../sass/_article.scss */
+body section #right-article .img-cont2 .img-overlay2 {
+  width: 100%;
+  height: 96%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+/* line 73, ../sass/_article.scss */
+body section #right-article #img-text-1 {
+  bottom: 25%;
+  width: 100%;
+}
+/* line 77, ../sass/_article.scss */
+body section #right-article #img-text-2 {
+  bottom: 49%;
+  width: 100%;
+}
+/* line 81, ../sass/_article.scss */
+body section #right-article .read-more {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: rgba(76, 95, 150, 0.7);
+  margin-bottom: 1%;
+  font-size: 75%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: sans-serif;
+}
+
+/* line 2, ../sass/_footer.scss */
+body footer {
+  clear: both;
+  margin-top: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  height: 75px;
+  background-color: white;
+  border-top: 2px solid gray;
+  height: 100px;
+}
+/* line 12, ../sass/_footer.scss */
+body footer div {
+  float: left;
+  padding-top: 0%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+/* line 18, ../sass/_footer.scss */
+body footer div ul {
+  padding-left: 3%;
+  text-decoration: none;
+}
+/* line 23, ../sass/_footer.scss */
+body footer .footer-text {
+  text-decoration: none;
+  color: #0e233d;
+}
+/* line 27, ../sass/_footer.scss */
+body footer #footer-table1 {
+  font-family: Verdana;
+  font-size: 17px;
+  float: left;
+  width: 50%;
+  padding-left: 10%;
+  font-weight: 500;
+}
+/* line 35, ../sass/_footer.scss */
+body footer #footer-table1 .headers {
+  padding-bottom: 5%;
+  border-bottom: 1.5px solid #7ba1f6;
+  font-weight: 500;
+}
+/* line 40, ../sass/_footer.scss */
+body footer #footer-table1 .footer-header-minor {
+  padding-top: 7%;
+}
+/* line 45, ../sass/_footer.scss */
+body footer #footer-table2 {
+  font-family: Verdana;
+  font-size: 17px;
+  float: right;
+  width: 20%;
+  font-weight: 500;
+}
+/* line 52, ../sass/_footer.scss */
+body footer #footer-table2 #footer-table2-list {
+  padding-bottom: 2%;
+  padding-left: 10%;
+}
+/* line 56, ../sass/_footer.scss */
+body footer #footer-table2 #footer-table2-list #footer-circle {
+  border-radius: 100%;
+  background-color: #1077f2;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin-left: -45px;
+}

@@ -1,0 +1,97 @@
+body{
+  section{
+      font-family: sans-serif;
+      #right-article{
+        float: right;
+        width: 28%;
+        height: 650px;
+        background-color: white;
+        //padding: 0% 4%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-left: 21px;
+        border-left: 2px solid gray;
+        #header{
+          font-weight: 500;
+          font-size: 27px;
+          padding-bottom: 5%;
+          color: rgb(10,35,61);
+
+          }
+
+        .text-content{
+          font-size: 19px;
+          padding-top: 5%;
+          padding-bottom: 5%;
+          color: darkslategray;
+          }
+        div ul{
+          list-style: none;
+          }
+        div.sb-articles img{
+          width: 100%;
+          height: auto;
+        }
+
+        .img-text{
+          position: absolute;
+          color: whitesmoke;
+          font-family: sans-serif;
+          text-align: center;
+          font-size: 140%;
+        }
+
+        .sb-articles {
+          border-top: 8px solid cornflowerblue;
+          position: relative;
+          width: 60%;
+          padding-top: 4%;
+
+          .img-cont1 {
+            position: relative;
+
+            .img-overlay1{
+              width: 100%;
+              height: 99%;
+              position: absolute;
+              background: rgba(0, 0, 0, 0.5);
+              top: 0;
+            }
+          }
+        }
+        .img-cont2{
+          position: relative;
+
+          .img-overlay2{
+            width: 100%;
+            height: 96%;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            top: 0;
+          }
+        }
+        #img-text-1{
+          bottom: 25%;
+          width: 100%;
+        }
+        #img-text-2{
+          bottom: 49%;
+          width: 100%;
+        }
+        .read-more{
+          position: absolute;
+          bottom: 0;
+          color: white;
+          background: rgba(76, 95, 150, 0.7);
+          margin-bottom:1%;
+          font-size: 75%;
+          padding-top: 2%;
+          padding-bottom: 2%;
+          padding-left: 3%;
+          padding-right: 3%;
+          font-family: sans-serif;
+        }
+    }
+  }
+}
+
